@@ -6,10 +6,10 @@ const Navbar = () => {
     <div>
        <ul className='bg-green-800 text-3xl m-2 p-4 flex justify-between'>
         <Link to={'/home'}>Home</Link>
-        <Link to={'/home'}>About</Link>
-        <Link to={'/home'}>Blogs</Link>
-        <Link to={'/home'}>Products</Link>
-        <Link to={'/home'}>Contact</Link>
+        <Link to={'/about'}>About</Link>
+        <Link to={'/blogs'}>Blogs</Link>
+        <Link to={'/products'}>Products</Link>
+        <Link to={'/contact'}>Contact</Link>
        </ul>
     </div>
   )
